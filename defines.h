@@ -12,13 +12,13 @@ typedef uint8_t  u8;
 typedef uint16_t u16;
 typedef uint32_t u32;
 
-typedef float  f32;
+typedef float f32;
 
 typedef i8  b8;
 typedef i16 b16;
 typedef i32 b32;
 
-#define Bytes(value)     (value)
+#define Bytes(value) (value)
 #define Kilobytes(value) (value << 10)
 #define Megabytes(value) (value << 20)
 #define Gigabytes(value) ((u64)(value) << 30)
